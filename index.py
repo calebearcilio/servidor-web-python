@@ -10,6 +10,8 @@ PORT = 3333
 serverSocket.bind(('', PORT))
 serverSocket.listen(1)
 
+print(f'Servidor rodando na porta {PORT}')
+print(f'http://127.0.0.1:{PORT}/HelloWorld.html')
 while True:
     # Estabelece a conexão
     print('Ready to serve...')
